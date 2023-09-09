@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+.box{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+/* 	flex-direction: row; */
+}
+.box>div{
+	width: 100px;
+	height: 100px;
+}
+.green{
+	background:green;
+	font-size: 50px;
+	font-weight:500;
+}
+.red{
+	background:red;
+	font-size: 50px;
+	font-weight:500;
+}
+.blue{
+	background:blue;
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	font-weight:500;
+}

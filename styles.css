@@ -12,7 +12,7 @@
 	flex-wrap:wrap;
 /* 	flex-direction: row; */
 }
-.box>div{
+.holder>div{
 	width: 100px;
 	height: 100px;
 }
